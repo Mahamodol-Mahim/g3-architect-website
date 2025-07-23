@@ -20,7 +20,7 @@
 /* dark 02 */
 .text-gray{
     color: #424242;
-}
+}   
 
 /* dark03 */
 .text-light-gray{
@@ -29,7 +29,7 @@
 
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
-}
+} 
 
 .btn-primary{
     background-color: #FF900E;
@@ -65,7 +65,7 @@ main > section{
 
 .brand{
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 3rem;   
 }
 .nav-item{
     list-style: none;
@@ -224,7 +224,9 @@ main > section{
     .facts-container, 
     .sponsor-companies
     {
-        grid-template-columns: 1fr;
+         grid-template-columns: 1fr;     /* 1fr means: "1 fraction of available space" It creates one column that takes up 100% of the container's width */
+         
+         /* grid-template-columns: repeat(1, 1fr); */
     }
 
     .facts-container{
