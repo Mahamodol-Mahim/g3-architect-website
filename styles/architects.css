@@ -210,6 +210,19 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* footer section */
+.footer-section{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    max-height: 100px;
+    margin-top: 130px;
+    text-align: center;
+    padding: 40px 410px;
+}
+.footer-text{
+    font-size: 20px;
+}
+
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
@@ -247,6 +260,10 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+
+    .footer-section{
+        padding: 20px 0px;
+    }
 }
 
 /* medium size device */
@@ -267,5 +284,8 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer-section{
+        padding: 10px 20px;
     }
 }
